@@ -6,7 +6,7 @@ import numpy as np
 import time
 
 # Load the model
-# model = YOLO('best (5).pt') #precision 97%
+model = YOLO('best (5).pt') #precision 97%
 # model = YOLO('best (5).pt') #precision 95%
 class_names = ['Buffalo', 'Elephant', 'Rhinoceros', 'Zebra']
 
